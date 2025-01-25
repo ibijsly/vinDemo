@@ -41,4 +41,8 @@ public class VoterService {
     public Voter findByVin(String vin){
         return voterDao.findByVin(vin);
     }
+
+    public void shoutAndReturnNothing(){
+        System.out.println("I am really shouting !!!");
+    }
 }
